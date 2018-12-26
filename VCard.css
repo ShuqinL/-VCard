@@ -22,6 +22,7 @@ body{
 a:hover {
     width: 80px;
   }
+
 #background{
     width: 700px;
     height: 400px;
@@ -34,6 +35,7 @@ a:hover {
 
 .aboutme{
     grid-area: aboutme;
+    align-content: end;
     background-image: linear-gradient( rgba(79,59,106,0.3), rgba(79,59,106,1));
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -49,8 +51,8 @@ a:hover {
 
 .portfolio{
     grid-area: portfolio;
+    align-content: end;
     background-image: linear-gradient(rgba(59,97,106,0.3), rgba(59,97,106,1)) ;
-    border-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -64,8 +66,8 @@ a:hover {
 
 .resume{
     grid-area:resume;
+    align-content: end;
     background-image: linear-gradient(rgba(84,120,56,0.3), rgba(84,120,56,1)) ;
-    border-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -79,8 +81,8 @@ a:hover {
 
 .contact{
     grid-area:contact;
+    align-content: end;
     background-image: linear-gradient(rgba(169,75,7,0.3), rgba(169,75,7,1)) ;
-    border-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
