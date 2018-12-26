@@ -7,10 +7,16 @@ body{
          "aboutme portfolio resume contact"
          "aboutme portfolio resume contact";
     grid-gap: 50px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 25px;
+    padding-right:25px;
     background-image: "background.jpg";
     background-color: rgb(223, 205, 167);
     background-size: cover;
-    color: white;
+    color: rgb(36,25,17);
 }
 
 #background{
@@ -25,28 +31,28 @@ body{
 
 .aboutme{
     grid-area: aboutme;
-    align-content: center;
-    background-image: linear-gradient( rgba(79,59,106,0.5), rgba(79,59,106,1));
+ 
+    background-image: linear-gradient( rgba(79,59,106,0.3), rgba(79,59,106,1));
     border-radius: 25px;
 }
 
 
 .portfolio{
     grid-area: portfolio;
-    background-image: linear-gradient(rgba(59,97,106,0.5), rgba(59,97,106,1)) ;
+    background-image: linear-gradient(rgba(59,97,106,0.3), rgba(59,97,106,1)) ;
     border-radius: 25px;
 }
 
 
 .resume{
     grid-area:resume;
-    background-image: linear-gradient(rgba(84,120,56,0.5), rgba(84,120,56,1)) ;
+    background-image: linear-gradient(rgba(84,120,56,0.3), rgba(84,120,56,1)) ;
     border-radius: 25px;
 }
 
 
 .contact{
     grid-area:contact;
-    background-image: linear-gradient(rgba(169,75,7,0.5), rgba(169,75,7,1)) ;
+    background-image: linear-gradient(rgba(169,75,7,0.3), rgba(169,75,7,1)) ;
     border-radius: 25px;
 }
