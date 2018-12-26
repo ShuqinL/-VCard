@@ -12,6 +12,10 @@ body{
     color: white;
 }
 
+.background{
+    width: 96%;
+    height: 96%;
+}
 
 .title{
     grid-area: title;
