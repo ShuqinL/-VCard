@@ -13,7 +13,7 @@ body{
     padding-top:60px;
     padding-left: 50px;
     padding-right:50px;
-    background-image: url("background.jpg");
+    background-image: url("background.png");
     background-color: rgb(223, 205, 167);
     /*background-position: bottom;*/
     background-size: cover;
