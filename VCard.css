@@ -6,6 +6,7 @@ body{
          "title title . ."
          "aboutme portfolio resume contact"
          "aboutme portfolio resume contact";
+    grid-gap: 80px;
     background-image: "background.jpg";
     background-color: rgb(223, 205, 167);
     background-size: cover;
@@ -13,7 +14,7 @@ body{
 }
 
 #background{
-    width: 600px;
+    width: 700px;
     height: 400px;
 }
 
