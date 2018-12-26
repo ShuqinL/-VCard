@@ -5,18 +5,20 @@ body{
     grid-template-areas: 
          "title title . ."
          "aboutme portfolio resume contact"
-         "aboutme portfolio resume contact";
-    grid-gap: 50px;
+         "icon1 icon2 icon3 icon4";
+    grid-column-gap: 50px;
     align-content: center;
-    align-items: center;
     justify-content: center;
-    justify-items: center;
     padding-left: 25px;
     padding-right:25px;
     background-image: "background.jpg";
     background-color: rgb(223, 205, 167);
+    background-position: bottom;
     background-size: cover;
     color: rgb(36,25,17);
+    a:hover {
+        background-color:  rgb(223, 205, 167);
+      }
 }
 
 #background{
@@ -31,9 +33,16 @@ body{
 
 .aboutme{
     grid-area: aboutme;
- 
     background-image: linear-gradient( rgba(79,59,106,0.3), rgba(79,59,106,1));
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.icon1{
+    grid-area: icon1;
+    background-image: linear-gradient( rgba(79,59,106,1), rgba(79,59,106,0.3));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 
@@ -41,18 +50,43 @@ body{
     grid-area: portfolio;
     background-image: linear-gradient(rgba(59,97,106,0.3), rgba(59,97,106,1)) ;
     border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
+.icon2{
+    grid-area: icon2;
+    background-image: linear-gradient( rgba(59,97,106,1), rgba(59,97,106,0.3));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
 .resume{
     grid-area:resume;
     background-image: linear-gradient(rgba(84,120,56,0.3), rgba(84,120,56,1)) ;
     border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
+.icon3{
+    grid-area: icon3;
+    background-image: linear-gradient( rgba(84,120,56,1), rgba(84,120,56,0.3));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
 .contact{
     grid-area:contact;
     background-image: linear-gradient(rgba(169,75,7,0.3), rgba(169,75,7,1)) ;
     border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.icon4{
+    grid-area: icon4;
+    background-image: linear-gradient( rgba(169,75,7,1), rgba(169,75,7,0.3));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
