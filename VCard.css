@@ -8,8 +8,10 @@ body{
          "aboutme portfolio resume contact";
     background-image: "background.jpg";
     background-color: rgb(223, 205, 167);
+    background-size: cover;
     color: white;
 }
+
 
 .title{
     grid-area: title;
