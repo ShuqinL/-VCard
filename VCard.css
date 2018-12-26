@@ -10,8 +10,9 @@ body{
     grid-column-gap: 50px;
     align-content: center;
     justify-content: center;
-    padding-left: 25px;
-    padding-right:25px;
+    padding-top:60px;
+    padding-left: 50px;
+    padding-right:50px;
     background-image: "background.jpg";
     background-color: rgb(223, 205, 167);
     background-position: bottom;
@@ -20,11 +21,12 @@ body{
     text-align: center;
 }
 
-a {
-    width:50px;
+figure a img {
+    transform: scale(1);
+    transition: .3s ease-in-out;
 }
-a:hover {
-    width: 80px;
+figure a:hover img{
+    transform: scale(1.3) ;
   }
 
 #background{
