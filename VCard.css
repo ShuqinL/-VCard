@@ -42,7 +42,7 @@ figure a:hover img{
 .aboutme{
     grid-area: aboutme;
     padding-top: 50px;
-    background-image: linear-gradient( rgba(79,59,106,0.3), rgba(79,59,106,1));
+    background-image: linear-gradient( rgba(79,59,106,1), rgba(79,59,106,1));
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -58,7 +58,7 @@ figure a:hover img{
 .portfolio{
     grid-area: portfolio;
     padding-top: 50px;
-    background-image: linear-gradient(rgba(59,97,106,0.3), rgba(59,97,106,1)) ;
+    background-image: linear-gradient(rgba(59,97,106,1), rgba(59,97,106,1)) ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -73,7 +73,7 @@ figure a:hover img{
 .resume{
     grid-area:resume;
     padding-top: 50px;
-    background-image: linear-gradient(rgba(84,120,56,0.3), rgba(84,120,56,1)) ;
+    background-image: linear-gradient(rgba(84,120,56,1), rgba(84,120,56,1)) ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -88,7 +88,7 @@ figure a:hover img{
 .contact{
     grid-area:contact;
     padding-top: 50px;
-    background-image: linear-gradient(rgba(169,75,7,0.3), rgba(169,75,7,1)) ;
+    background-image: linear-gradient(rgba(169,75,7,1), rgba(169,75,7,1)) ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
