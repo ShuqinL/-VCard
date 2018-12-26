@@ -25,6 +25,7 @@ body{
 
 .aboutme{
     grid-area: aboutme;
+    align-content: center;
     background-image: linear-gradient( rgba(79,59,106,0.5), rgba(79,59,106,1));
     border-radius: 25px;
 }
