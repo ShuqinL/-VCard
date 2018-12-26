@@ -1,0 +1,93 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end:13;
+    grid-row-start: 1;
+    grid-row-end:5;
+    z-index:0;
+    background-color: rgb(6,83,20);
+    color: white;
+}
+
+h2, h3{
+    color: rgb(6,83,20);
+}
+
+.above{
+    color:white;
+    text-align: center;
+}
+
+.left {
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:5;
+    grid-row-start: 8;
+    grid-row-end:18;
+    z-index:1;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(170, 189, 174);
+
+    }
+   
+.right{
+    display: grid;
+    grid-column-start:6;
+    grid-column-end: 12;
+    grid-row-start:7;
+    grid-row-end:19;
+    z-index:2;
+}
+
+.opleiding1{
+    grid-area: title;
+}
+
+.opleiding2{
+    grid-area: periode;
+}
+
+.opleiding{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+                "title periode"
+}
+
+.werkervaring1{
+    grid-area: position;
+}
+
+.werkervaring2{
+    grid-area: time;
+}
+
+.werkervaring{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+                "position time"
+}
+
+.photo{
+    display: grid;
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    z-index:3;
+}
+
+img{
+    width:100px;
+}
