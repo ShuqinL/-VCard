@@ -29,10 +29,10 @@ header{
 
 .left{
     grid-area: left;
-    padding-left: 80px;
+    padding-left: 150px;
 }
 
 .right{
     grid-area: right;
-    padding-right:80px;
+    padding-right:150px;
 }
