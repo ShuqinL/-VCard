@@ -1,5 +1,5 @@
 body{
-    opacity: 0.99;
+    /*opacity: 0.99;*/
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,1fr);
@@ -43,7 +43,7 @@ figure a:hover img{
 .aboutme{
     grid-area: aboutme;
     padding-top: 50px;
-    background-image: linear-gradient( rgba(79,59,106,0.9), rgba(79,59,106,1));
+    background-image: linear-gradient( rgba(79,59,106,0.3), rgba(79,59,106,0.9));
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -59,14 +59,14 @@ figure a:hover img{
 .portfolio{
     grid-area: portfolio;
     padding-top: 50px;
-    background-image: linear-gradient(rgba(59,97,106,0.9), rgba(59,97,106,1)) ;
+    background-image: linear-gradient(rgba(59,97,106,0.3), rgba(59,97,106,0.9)) ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
 .icon2{
     grid-area: icon2;
-    background-image: linear-gradient( rgba(59,97,106,1), rgba(59,97,106,0.3));
+    background-image: linear-gradient( rgba(59,97,106,0.9), rgba(59,97,106,0.3));
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
@@ -74,14 +74,14 @@ figure a:hover img{
 .resume{
     grid-area:resume;
     padding-top: 50px;
-    background-image: linear-gradient(rgba(84,120,56,0.9), rgba(84,120,56,1)) ;
+    background-image: linear-gradient(rgba(84,120,56,0.3), rgba(84,120,56,0.9)) ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
 .icon3{
     grid-area: icon3;
-    background-image: linear-gradient( rgba(84,120,56,1), rgba(84,120,56,0.3));
+    background-image: linear-gradient( rgba(84,120,56,0.9), rgba(84,120,56,0.3));
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
@@ -89,14 +89,14 @@ figure a:hover img{
 .contact{
     grid-area:contact;
     padding-top: 50px;
-    background-image: linear-gradient(rgba(169,75,7,0.9), rgba(169,75,7,1)) ;
+    background-image: linear-gradient(rgba(169,75,7,0.3), rgba(169,75,7,0.9)) ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
 .icon4{
     grid-area: icon4;
-    background-image: linear-gradient( rgba(169,75,7,1), rgba(169,75,7,0.3));
+    background-image: linear-gradient( rgba(169,75,7,0.9), rgba(169,75,7,0.3));
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
