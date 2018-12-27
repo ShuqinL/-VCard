@@ -13,9 +13,6 @@ body{
     padding-top:60px;
     padding-left: 50px;
     padding-right:50px;
-    background-color: rgb(223, 205, 167);
-    background-position: bottom;
-    background-size: cover;
     color: rgb(36,25,17);
     text-align: center;
 }
@@ -23,13 +20,15 @@ body{
 header{
     grid-area: header;
     background-color: rgb(169,75,7);
-    color: rgb(223, 205, 167);
+    color: white;
 }
 
 .left{
     grid-area: left;
+    padding-left: 50px;
 }
 
 .right{
     grid-area: right;
+    padding-right:50px;
 }
