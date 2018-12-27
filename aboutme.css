@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+         "header header"
+         ". ."
+         "left right"
+         "left right";
+    grid-column-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    padding-top:60px;
+    padding-left: 50px;
+    padding-right:50px;
+    color: rgb(36,25,17);
+    text-align: center;
+}
+
+h2{
+    color: rgb(79, 59, 106);
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(79, 59, 106);
+    color: white;
+}
+
+.left{
+    grid-area: left;
+    padding-left: 150px;
+}
+
+.right{
+    grid-area: right;
+    padding-right:150px;
+}
