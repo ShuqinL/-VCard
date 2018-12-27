@@ -3,7 +3,6 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(18, 1fr);
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(223, 205, 167);
 }
 
 header{
